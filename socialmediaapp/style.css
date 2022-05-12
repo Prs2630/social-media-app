@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_yDQjOxiroc1GwRJxTQYUPLY7PSPO9GrrmA&usqp=CAU");
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+#posts{
+    width: 400px;
+}
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+#msg{
+    color: darkred;
+}
